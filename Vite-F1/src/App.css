@@ -1,0 +1,42 @@
+
+*{
+  background: #333;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+}
+
+/* About.jsx */
+.about {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  font-size: large;
+  margin-bottom: 50px;
+}
+
+.about p {
+  padding: 300px;
+  background: url(../src/assets/f1-vector.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px black;
+}

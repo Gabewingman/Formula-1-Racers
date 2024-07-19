@@ -1,0 +1,69 @@
+/* Add a consistent spacing between elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: rgb(239, 231, 218);
+  }
+  
+  .drivers-container {
+    /* Center the containers horizontally */
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    background: #333;
+  }
+  
+  .drivers {
+    /* Use a more consistent spacing and layout */
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    transition: ease-in-out;
+    transition: 0.2s;
+  }
+  
+  .drivers:hover {
+    /* Add a subtle shadow and border on hover */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0px 0px 10px rgb(133, 122, 122);
+    border: 1px solid #ccc;
+  }
+  
+  .drivers p {
+    /* Use a more modern font family */
+    font-family: Arial, sans-serif;
+  }
+  
+  .textStrong {
+    /* Make the strong text more prominent */
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .drivers a {
+    /* Remove unnecessary styles and add a consistent text color */
+    color: #ccc;
+    text-decoration: none;
+  }
+
+  .drivers a:hover {
+    text-decoration: underline;
+    color: grey;
+  }
+
+  .drivers img:hover {
+    border: 150px;
+  }
+  
+  .drivers img {
+    /* Add a consistent margin and border radius */
+    margin: 20px;
+    border-radius: 50%;
+    border: 7px solid #ccc;
+  }

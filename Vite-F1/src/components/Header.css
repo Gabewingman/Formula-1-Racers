@@ -1,0 +1,43 @@
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(17, 109, 167);
+    box-shadow: 2px 2px 5px rgb(133, 122, 122);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.navBar img {
+    margin: 10px;
+    background: rgb(17, 109, 167);
+}
+
+.navBar a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(17, 109, 167);
+    text-align: center;
+    margin-top: 0;
+}
+
+.navLinks {
+    margin-top: 10px;
+    background: rgb(17, 109, 167);
+}
+
+.navLinks a {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 1px 1px rgb(133, 122, 122);
+    background: rgb(17, 109, 167);
+    transition-duration: 0.5s;
+}
+
+.navLinks a:hover {
+    text-decoration: underline;
+    color: black;
+}

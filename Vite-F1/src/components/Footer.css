@@ -1,0 +1,32 @@
+
+.footerAllDrivers {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+.driversFirstLine a {
+    text-decoration: none;
+    display: inline-flex;
+    padding: 10px;
+    margin: 10px;
+    color: grey;
+}
+
+.driversFirstLine a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: rgb(17, 109, 167);
+    box-shadow: 2px 2px 5px rgb(133, 122, 122);
+    color: white;
+    border: 1px solid;
+    border: none;
+    padding: 10px;
+}
