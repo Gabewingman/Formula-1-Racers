@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="about">
       <p>
-        <strong>About</strong>. Welcome to WEB-Playground, the ultimate destination for Formula 1
+        <strong>About</strong>. <i>Welcome to WEB-Playground, the ultimate destination for Formula 1
         fans! Our website is dedicated to bringing you closer to your favorite
         F1 drivers, providing you with up-to-date information, stats, and
         exclusive insights. Whether you're a long-time fan or new to the world
@@ -19,7 +19,7 @@ export default function About() {
         track. Join our community of passionate F1 enthusiasts and stay
         connected with the latest updates and discussions. WEB-Playground is
         your one-stop hub for all things Formula 1. Rev up your engines and
-        enjoy the ride!
+        enjoy the ride!</i>
       </p>
     </div>
   );

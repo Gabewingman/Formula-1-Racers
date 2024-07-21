@@ -31,6 +31,10 @@ footer {
   margin-bottom: 50px;
 }
 
+i {
+  background: transparent;
+}
+
 .about p {
   padding: 300px;
   background: url(../src/assets/f1-vector.png) no-repeat;
@@ -39,4 +43,60 @@ footer {
   text-align: center;
   color: white;
   text-shadow: 1px 1px black;
+}
+
+/* Blog.jsx */
+/* General styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-shadow: 1px 1px black;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px black;
+  padding: 20px;
+}
+
+/* Blog container */
+.blog {
+  padding: 20px;
+  background: url(./assets/max.jpg) no-repeat;
+  padding-bottom: 600px;
+  border: 2px solid;
+  border: none;
+  margin: 20px;
+  display: inline-flex;
+  text-shadow: 1px 1px black;
+  box-shadow: 5px 5px 5px rgb(133, 122, 122);
+}
+
+.blog-post {
+  background: transparent;
+}
+
+.blog-post h2 {
+  background: transparent;
+  padding: 20px;
+}
+
+.blog-post small {
+  background: transparent;
+  padding: 20px;
+}
+
+.blog-post p {
+  background: transparent;
+}
+
+.blog-content {
+  background: transparent;
+  padding: 20px;
 }
