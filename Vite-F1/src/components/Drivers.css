@@ -3,7 +3,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: rgb(239, 231, 218);
   }
   
   .drivers-container {
@@ -12,7 +11,7 @@
     justify-content: center;
     flex-wrap: wrap;
     padding: 5px;
-    background: #333;
+    background: #222831;
   }
   
   .drivers {
@@ -20,7 +19,7 @@
     display: inline-block;
     margin: 20px;
     padding: 20px;
-    border: 1px solid #333;
+    border: 1px solid #222831;
     border-radius: 10px;
     max-width: 300px;
     text-align: center;
@@ -45,10 +44,14 @@
     font-size: 1.2em;
     font-weight: bold;
   }
+
+  .team {
+    color: gray;
+  }
   
   .drivers a {
     /* Remove unnecessary styles and add a consistent text color */
-    color: #ccc;
+    color: white;
     text-decoration: none;
   }
 
@@ -65,5 +68,5 @@
     /* Add a consistent margin and border radius */
     margin: 20px;
     border-radius: 50%;
-    border: 7px solid #ccc;
+    border: 7px solid white;
   }

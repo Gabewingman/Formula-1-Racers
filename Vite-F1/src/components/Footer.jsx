@@ -157,7 +157,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <p className="copyright">© 2022 Formula 1</p>
+      <p>© 2022 Formula 1</p>
     </footer>
   );
 }

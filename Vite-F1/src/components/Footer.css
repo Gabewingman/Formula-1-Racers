@@ -1,32 +1,42 @@
 
+footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer p {
+    background: #31363f;
+    padding: 20px;
+}
+
 .footerAllDrivers {
+    background: #31363f;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 10px;
-    padding: 30px;
+    font-size: small;
+    line-height: 20px;
+}
+
+.driversFirstLine ul {
+    background: #31363f;
 }
 
 .driversFirstLine a {
+    background: #31363f;
     text-decoration: none;
     display: inline-flex;
-    padding: 10px;
-    margin: 10px;
-    color: grey;
+    color: white;
+    padding: 12px;
+    line-height: 16px;
 }
 
 .driversFirstLine a:hover {
     text-decoration: underline;
-    color: white;
+    color: gray;
 }
 
 .copyright {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    background: rgb(17, 109, 167);
-    box-shadow: 2px 2px 5px rgb(133, 122, 122);
-    color: white;
-    border: 1px solid;
-    border: none;
-    padding: 10px;
+    padding: 12px;
 }

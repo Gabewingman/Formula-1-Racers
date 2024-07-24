@@ -1,6 +1,7 @@
 
 *{
-  background: #333;
+  background: #222831;
+  line-height: 20 px;
 }
 
 html, body {
@@ -76,6 +77,7 @@ header h1 {
   display: inline-flex;
   text-shadow: 1px 1px black;
   box-shadow: 5px 5px 5px rgb(133, 122, 122);
+  margin-bottom: 60px;
 }
 
 .blog-post {

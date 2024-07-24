@@ -190,9 +190,7 @@ function Drivers() {
               <p>
                 <strong className="textStrong">{driver.name}</strong>
               </p>
-              <p>
-                <strong>{driver.team}</strong>
-              </p>
+              <p className="team">{driver.team}</p>
             </a>
           </div>
         </div>

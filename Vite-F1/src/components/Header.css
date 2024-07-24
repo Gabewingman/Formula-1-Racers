@@ -3,7 +3,6 @@
     justify-content: space-around;
     align-items: center;
     background: rgb(17, 109, 167);
-    box-shadow: 2px 2px 5px rgb(133, 122, 122);
     text-align: center;
     margin-bottom: 50px;
 }
@@ -34,10 +33,10 @@
     color: whitesmoke;
     text-shadow: 1px 1px rgb(133, 122, 122);
     background: rgb(17, 109, 167);
-    transition-duration: 0.5s;
 }
 
 .navLinks a:hover {
     text-decoration: underline;
-    color: black;
+    color: gray;
+    text-decoration: underline;
 }
